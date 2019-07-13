@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.6"
 x-common-variables: &common-variables
   NODE_ENV: local
   AWS_ACCESS_KEY_ID: anykey
