@@ -62,11 +62,7 @@ class MessagesDao {
             },
             ConditionExpression: 'mid = :mid and sender = :sender',
             UpdateExpression: `set msg = :msg`,
-            ExpressionAttributeValues: {
-                ':sender': sender,
-                ':mid': mid,
-                ':msg': msg,
-            },
+            ExpressionAttributeValues: { msg },
             ReturnValues: 'NONE'
         };
 
